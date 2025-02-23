@@ -1,5 +1,5 @@
 ﻿using CardActionsService.Data;
-using CardActionsService.Domain.Models;
+using CardActionsService.Domain.Enums;
 using CardActionsService.Infrastructure.Entities;
 
 namespace CardActionsService.Infrastructure.Data

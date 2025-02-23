@@ -1,4 +1,4 @@
-﻿using CardActionsService.Domain.Models;
+﻿using CardActionsService.Domain.Enums;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 

@@ -1,4 +1,5 @@
-﻿using CardActionsService.Domain.Interfaces;
+﻿using CardActionsService.Domain.Enums;
+using CardActionsService.Domain.Interfaces;
 using CardActionsService.Domain.Interfaces.Services;
 using CardActionsService.Domain.Models;
 
@@ -26,6 +27,7 @@ namespace CardActionsService.Domain.Services
             // Optional: Validate the userId and cardNumber format. Trim, check length, etc.
 
             // The code below could be moved to an infrastructure project where data could be fetched, but to keep the sample code (from the task) consistent it will be here
+            
             // At this point, we would typically make an HTTP call to an external service
             // to fetch the data. For this example we use generated sample data.
             await Task.Delay(1000);
